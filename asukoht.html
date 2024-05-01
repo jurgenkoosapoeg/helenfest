@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Rubik Spray Paint' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Passion One' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Londrina Solid' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/pildid_style.css">
+        <link rel="stylesheet" href="style/piletid_style.css">
+        <link rel="stylesheet" href="style/footer_style.css">
+        <style>
+
+            #map_container {
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            #peo_asukoht {
+                font-size: 4vw;
+            }
+
+            #map {
+                box-sizing: border-box;
+                padding: 50px 0px 100px 0px;
+                width: 100%;
+                background-color: #FCBA0E;
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div id="logo_container">
+                    <a href="index.html">
+                        <img id="logo" src="pildid/logo2_suur.png"/>
+                    </a>
+                </div>
+                <div id="nupud">
+                    <div>
+                        <a href="index.html#piletid_text"><img id="piletid" src="pildid/piletid_valge.png"/></a>
+                        <a href="index.html#ajakava_container"><img id="ajakava" src="pildid/ajakava_valge.png"/></a>
+                        <a href="#footer"><img id="lisainfo" src="pildid/lisainfo_valge.png"/></a>
+                    </div>
+                </div>
+            </nav>
+            <div id="taust_container">
+                <img id="taust" src="pildid/helen fest TAUST 1.png" />
+                <img id="kiri" src="pildid/HELENFEST2024.png" />
+                <!--
+                <img class="leht" id="leht_vasak" src="leht_vasak.png" />
+                <img class="leht" id="leht_parem" src="leht_parem.png" />
+                -->
+            </div>
+        </header>
+        <div id="ollevaht_container">
+            <img id="ollevaht" src="pildid/ollevaht_cropped.png" />
+            <div id="map_container">
+                <div id="peo_asukoht" class="colored_text_container">
+                    <div class="colored_text_div"><p class="colored_text_blue">PEO ASUKOHT</p></div>
+                    <div class="colored_text_div"><p class="colored_text_purple">PEO ASUKOHT</p></div>
+                    <div class="colored_text_div"><p class="colored_text_white">PEO ASUKOHT</p></div>
+                    <p class="colored_text_transparent">PEO ASUKOHT</p>
+                </div>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d270272.0786180642!2d25.9171058!3d58.0470798!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTjCsDA2JzU5LjMiTiAyNsKwMTMnNTQuNCJF!5e0!3m2!1set!2see!4v1714511919488!5m2!1set!2see" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <footer id="footer">
+            <div id="footer_ülemine">
+                <a href="index.html">
+                    <img id="footer_helenfest_logo" src="pildid/helenfest_roosa_logo.jpeg">
+                </a>
+                <div id="footer_menu">
+                    <div class="footer_menu_part" id="footer_avasta">
+                        <p class="footer_menu_heading">AVASTA</p>
+                        <div class="footer_menu_buttons">
+                            <p><a href="index.html#piletid_text">Piletid</a></p>
+                            <p><a href="index.html#ajakava_container">Ajakava</a></p>
+                            <p><a target="_blank" href="https://photos.google.com/share/AF1QipONTlNhQkVTrFOYdibcnrzTk8SqwYQMUO-UvhaUfGIQYbM_Kx7b_7YHvkDlexNC2w?key=SGdLLS1RNC1kbDdkN01xdnhHYmZxT2tWaXdoM1FB">Galerii</a></p>
+                        </div>
+                    </div>
+                    <div class="footer_menu_part" id="footer_lisaks">
+                        <p class="footer_menu_heading">LISAKS</p>
+                        <div class="footer_menu_buttons">
+                            <p><a href="#">Tutvu Heleniga</a></p>
+                            <p><a href="asukoht.html#peo_asukoht">Asukoht</a></p>
+                            <p><a href="#">Sponsorid</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer_line">
+                <hr>
+            </div>
+            <div id="footer_alumine">
+                <div id="footer_jälgi_meid">
+                    <p>JÄLGI MEID</p>
+                </div>
+                <div id="footer_alumine_parem">
+                    <div id="footer_social_media">
+                        <img src="pildid/facebook_icon.png">
+                        <img src="pildid/instagram_icon.png">
+                    </div>
+                    <div id="footer_hashtag">
+                        <p>#HELENFEST</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+/* pildid */
+#pildid {
+    display: inline-block;
+    position: relative;
+}
+
+#ülemine, #alumine {
+    width: 100%;
+    display: flex;
+}
+
+#pilt1 {
+    width: 23.88%;
+}
+
+#pilt2, #pilt4 {
+    width: 14.89%;
+}
+
+#pilt3 {
+    width: 26.48%;
+}
+
+#pilt5 {
+    width: 19.86%;
+}
+
+#pilt6 {
+    width: 17.12%;
+}
+
+#pilt7, #pilt8, #pilt11 {
+    width: 14.64%;
+}
+
+#pilt9 {
+    width: 17.78%;
+}
+
+#pilt10 {
+    width: 21.14%;
+}
+
+#pilt6_1, #pilt10_1 {
+    display: none;
+}
+
+@media only screen and (max-width: 980px) {
+    #pilt5, #pilt7, #pilt11, #pilt6, #pilt10 {
+        display: none;
+    }
+
+    #pilt1 {
+        width: 29.85%;
+    }
+
+    #pilt2, #pilt4 {
+        width: 18.61%;
+    }
+
+    #pilt3 {
+        width: 32.98%;
+    }
+
+    #pilt6_1 {
+        display: inline;
+        width: 25.20%;
+    }
+
+    #pilt8 {
+        width: 18.78%;
+    }
+
+    #pilt9 {
+        width: 22.75%;
+    }
+
+    #pilt10_1 {
+        display: inline;
+        width: 33.32%;
+    }
+
+}

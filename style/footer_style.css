@@ -1,0 +1,92 @@
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#footer_ülemine {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    align-items: center;
+}
+
+#footer_helenfest_logo {
+    height: 12vw;
+    margin-left: 7vw;
+}
+
+#footer_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.footer_menu_part {
+    text-align: center;
+}
+
+.footer_menu_heading {
+    font-family: 'Rubik Spray Paint';
+    margin: 1vw 0px;
+    font-size: 2.5vw;
+}
+
+.footer_menu_buttons {
+    font-family: 'Poppins';
+    text-decoration: underline;
+    font-size: 1.5vw;
+}
+
+.footer_menu_buttons a {
+    color: white;
+}
+
+/* line */
+
+#footer_line {
+    width: 95%;
+    margin: auto;
+}
+
+#footer_alumine {
+    height: 12vw;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer_alumine_parem {
+    display: flex;
+}
+
+#footer_jälgi_meid {
+    font-family: 'Rubik Spray Paint';
+    font-size: 4vw;
+    margin-left: 7vw;
+}
+
+#footer_social_media {
+    display: flex;
+    margin-right: 5vw;
+}
+
+#footer_social_media img {
+    width: 5vw;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+#footer_hashtag {
+    font-family: 'Poppins';
+    font-size: 3vw;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 2.5vw;
+}
+
+#footer_hashtag a {
+    color: white;
+}

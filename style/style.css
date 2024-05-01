@@ -1,0 +1,382 @@
+@import url('https://fonts.cdnfonts.com/css/lifelogo-easy');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#taust_container {
+    position: relative;
+    width: 100%;
+}
+
+#taust {
+    width: 100%;
+    display: block;
+}
+
+#kiri {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Adjust width to 50% of screen width */
+}
+
+.leht {
+    width: 50%;
+    position: absolute;
+}
+
+#leht_vasak {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#leht_parem {
+    top: 0%;
+    right: 0%;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 18%;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #logo_container {
+    width: 50%;
+    height: 100%;
+}
+
+nav #logo {
+    width: 20%;
+}
+
+nav #nupud {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+nav #nupud div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 20%;
+}
+
+nav #nupud div img {
+    width: 100%;
+}
+
+nav #nupud div a {
+    margin-right: 5%;
+    width: 25%;
+} 
+
+
+/*õllevaht*/
+
+#ollevaht {
+    width: 100%;
+    position: relative;
+    bottom: 60px;
+    margin-bottom: -60px;
+    z-index: 1;
+}
+
+#ollevaht_container {
+    position: relative;
+    background-color: #FCBA0E;
+}
+
+/*suurpidu text*/
+
+.colored_text_container {
+    position: relative;
+    font-family: 'Rubik Spray Paint';
+    text-align: center;
+}
+
+.colored_text_div {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.colored_text_white {
+    z-index: 3; /* Increased z-index for white text */
+    color: white;
+    position: relative;
+}
+.colored_text_blue {
+    top: -2px;
+    left: -2px;
+    position: relative;
+    color: #00ffff;
+    z-index: 1; /* Lower z-index for blue text */
+}
+.colored_text_purple {
+    top: 2px;
+    left: 2px;
+    position: relative;
+    color: #ff00ff;
+    z-index: 1; /* Lower z-index for purple text */
+}
+
+.colored_text_transparent {
+    opacity: 0;
+}
+
+#suurpidu_container {
+    font-size: 4.6vw;
+    top: -2vh;
+}
+
+#suurpidu_container .suurpidu_suur {
+    font-size: 6vw;
+    display: block;
+    transform: rotate(-2deg);
+    line-height: 1.2;
+}
+
+.padding_adder {
+    padding: 0px 8%;
+}
+
+/*saare osa*/
+
+#saare_osa {
+    background-color: #FCBA0E;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    z-index: 3;
+}
+
+#saar_bemmis {
+    width: 60%;
+    margin-right: 4%;
+    position: relative;
+    top: -8vh;
+}
+
+
+#extra_space {
+    width: 100%;
+    height: 200px;
+    background-color: #FCBA0E;
+    position: absolute;
+}
+
+/*rannataust kolmnurkadega*/
+#rannataust_kolmnurkadega {
+    position: relative;
+    top: -30vh;
+    margin-bottom: -30vh;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1370px) {
+    #rannataust_kolmnurkadega {
+        top: -25vh;
+        margin-bottom: -25vh;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    #rannataust_kolmnurkadega {
+        top: -22vh;
+        margin-bottom: -22vh;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    #rannataust_kolmnurkadega {
+        top: -18vh;
+        margin-bottom: -18vh;
+    }
+    #saar_bemmis {
+        width: 60%;
+        margin-right: 4%;
+        position: relative;
+        top: -6vh;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    /*saar osa*/
+    #saar_bemmis {
+        width: 60%;
+        margin-right: 4%;
+        position: relative;
+        top: -5vh;
+    }
+    #suurpidu_padding_adder {
+        padding: 0px 6%;
+    }
+    /*rannataust_kolmnurkadega*/
+    #rannataust_kolmnurkadega {
+        top: -13vh;
+        margin-bottom: -13vh;
+    }
+}
+
+#rannataust_kolmnurkadega img {
+    width: 100%;
+}
+
+#rannataust_text_container {
+    top: 30%;
+    position: absolute;
+}
+
+#ajakava_container {
+    font-size: 4.6vw;
+}
+
+/* Proovi osa */
+#ajakava_days {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.ajakava_day_container {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    box-sizing: border-box;
+    width: 33%;
+}
+
+.ajakava_day_date {
+    position: relative;
+    right: 10%;
+    font-family: 'Passion One';
+    color: #FF73B3;
+    font-size: 3.5vw;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ajakava_day_text {
+    font-family: 'Open Sans';
+    color: #FFC60A;
+    font-size: 2.5vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.ajakava_day_text div {
+    width: 90%;
+}
+
+/* video osa */
+
+#meenutused_page {
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    top: -5px;
+    margin-bottom: -5px;
+}
+
+#beige_box {
+    background-color: #FED66F;
+    height: 60%;
+}
+
+#pink_box {
+    height: 40%;
+    background-color: #FF73B3;
+}
+
+#meenutused_text {
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 4vw;
+    width: 100%;
+}
+
+#meenutused_page #video {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+#video iframe {
+    height: 40vw;
+    width: 71vw;
+    border: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    #meenutused_text {
+        top: 20vh;
+    }
+
+    #meenutused_page {
+        height: 125vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    #meenutused_text {
+        top: 17vh;
+    }
+
+    #meenutused_page {
+        height: 100vh;
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #meenutused_page {
+        height: 100vh;
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #meenutused_text {
+        top: 14vh;
+    }
+
+    #meenutused_page {
+        height: 80vh;
+        background-color: blue;
+    }
+}
